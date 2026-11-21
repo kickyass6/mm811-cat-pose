@@ -1,0 +1,44 @@
+{
+  "selected_at_utc": "2026-11-21T00:23:34.829694+00:00",
+  "manifest_sha256": "c63cb0137f045fda3d4f3007940bd631960d68a8b4e65ffa6ac407febbd1bf11",
+  "size": "100",
+  "seed": 11,
+  "mapping_seed": 611,
+  "mapping": {
+    "A": "imagenet",
+    "B": "coco_pose"
+  },
+  "photo_source": "AP-10K v1.0, official split 1 test photographs",
+  "source_record": "https://github.com/AlexTheBad/AP-10K#license",
+  "media_scope": "MM811 classroom demonstration",
+  "individual_photo_source": "No individual source URL in the official annotation JSON.",
+  "samples": [
+    {
+      "image_id": 40482,
+      "annotation_id": 10310,
+      "joint_index": 13,
+      "criterion": "Standing side view with all four paws visible"
+    },
+    {
+      "image_id": 32617,
+      "annotation_id": 8864,
+      "joint_index": 13,
+      "criterion": "Curled pose with foreshortening and one non-visible paw"
+    },
+    {
+      "image_id": 40813,
+      "annotation_id": 10381,
+      "joint_index": 13,
+      "criterion": "Seated cat in a multi-cat photograph"
+    }
+  ],
+  "duration_seconds": {
+    "question": 8,
+    "blind": 8,
+    "vote": 4,
+    "reveal": 12,
+    "difficult": 8,
+    "summary": 9,
+    "final": 6
+  }
+}

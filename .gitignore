@@ -1,0 +1,18 @@
+.venv*/
+__pycache__/
+data/
+weights/
+runs/
+logs/
+*.part
+
+# Generated experiment artifacts
+manifests/
+results/
+demo/*.mp4
+demo/provenance.json
+*.pt
+*.pth
+.DS_Store
+.env
+.env.*
